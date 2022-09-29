@@ -78,9 +78,9 @@
     "react-quill": "^2.0.0-beta.4",
     "react-router-dom": "^5.2.0",
     "react-scripts": "^5.0.1",
+    "tar-pack": "^3.4.1",
     "umi": "^3.5.0",
-    "umi-request": "^1.0.8",
-     "tar-pack": "^3.4.1"
+    "umi-request": "^1.0.8"
   },
   "devDependencies": {
     "@ant-design/pro-cli": "^2.1.0",
