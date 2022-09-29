@@ -1,0 +1,43 @@
+.content {
+  padding: 0 150px;
+}
+.form {
+  margin-left: 25px;
+}
+.boxContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  padding: 16;
+}
+.boxList {
+  width: 525px;
+  height: 360px;
+  padding: 16;
+  box-shadow: -1px 0 12px -2px rgba(0, 0, 0, 0.25);
+}
+@media screen and (max-width: 1840px) {
+  .content {
+    padding: initial !important;
+  }
+  .form {
+    margin-left: initial;
+  }
+}
+@media screen and (max-width: 1840px) {
+  .boxList {
+    width: initial !important;
+    height: initial !important;
+  }
+}
+@media screen and (max-width: 992px) {
+  .boxList {
+    width: 100% !important;
+    height: initial !important;
+    margin-top: 16px;
+  }
+  .boxContent {
+    display: initial;
+  }
+}
